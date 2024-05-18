@@ -15,7 +15,7 @@ app.use(cors({
 }));
 
 
-const dbURL = 'mongodb+srv://mannvora:Q2St724e9Sb1vlOb@cluster0.b9qww.mongodb.net/nodejs';
+const dbURL = 'mongodb+srv://usernmae:password.b9qww.mongodb.net/nodejs';
 
 mongoose.connect(dbURL, {useNewUrlParser: true, useUnifiedTopology: true})
 .then((result) => {
