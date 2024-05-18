@@ -8,7 +8,7 @@ require("../routes/auth");
 const Cart = require("../models/Cart");
 const uuid = require("uuid").v4;
 const stripe = require("stripe")(
-  "sk_test_51LIWFKSB9kOfRnHph9JPVrvGwE4yLQkAU1r0rSlYPRV0Pzr39J2U8mATRVh0LTKYkPOPLqrXeDit3uUgGCY3rl4p00mzAUodSU"
+  "stripe_id"
 );
 
 let jsonParser = bodyParser.json();
